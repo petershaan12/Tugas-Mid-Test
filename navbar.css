@@ -1,0 +1,56 @@
+/* NAVBAR */
+.navbar {
+  background-color: white;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  border-bottom: 1px solid rgba(173, 173, 173, 0.596);
+}
+.logo {
+  cursor: pointer;
+  margin-left: 8px;
+  padding: 10px 0;
+}
+.navbar ul {
+  margin-left: -20px;
+  float: right;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar ul li a {
+  line-height: 80px;
+  padding-left: 10px;
+  font-size: 15px;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+.navbar ul li a:hover {
+  outline: 2px solid #15275b;
+  transition-delay: 150ms;
+  transition: ease-out;
+}
+.flag {
+  float: right;
+  height: 23px;
+  display: flex;
+  margin-right: -620px;
+  margin-top: 28px;
+  width: 24px;
+}
+.flagindo {
+  filter: saturate(0.5);
+  margin-left: 5px;
+}
+.flaging {
+  filter: saturate(0.5);
+}
+.flag .flagindo:hover,
+.flag .flaging:hover {
+  filter: saturate(1);
+}
