@@ -172,7 +172,6 @@ table {
 }
 .card {
   margin-right: 20px;
-  transition: 0.3s;
 }
 .card .card-body {
   color: white;
@@ -207,12 +206,6 @@ table {
   background-color: #f3f3f3;
   color: #15275b;
 }
-
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-}
-
 /* POSTER */
 .poster {
   width: 100%;
@@ -242,7 +235,21 @@ table {
   color: black;
   font-size: 15px;
 }
-
+.poster .button {
+  text-decoration: none;
+  display: block;
+  line-height: 40px;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 5px 15px;
+  font-size: 15px;
+  width: 100px;
+  background-color: #15275b;
+  color: white;
+}
+.poster .button:hover {
+  background-color: black;
+}
 /* ALUMNI */
 .alumni {
   margin: auto;
@@ -254,7 +261,7 @@ table {
   text-align: center;
   color: #15275b;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 45px;
 }
 
@@ -286,7 +293,7 @@ table {
 }
 .alumni .alumni-card p {
   margin-top: -20px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
 }
 .alumni .logo {
